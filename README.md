@@ -1,5 +1,5 @@
 # Calculator-WPF
-![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/29ffbb12-0616-48d4-b405-724b5667f49a)
-![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/0ba121de-c74a-4282-9f81-1faec1fef090)
-![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/c98f854c-cdf2-4deb-b274-517aff0d861b)
-![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/0eae3677-3fe6-47d1-94db-30624373f0be)
+![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/99cc1cea-92e3-4f78-aa56-25b07b45caaf)
+![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/655d51ed-7f89-4c8b-b1a8-572c851edd11)
+![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/5ed6be56-287b-42cd-9709-b6135260b5f5)
+![image](https://github.com/badlocale/Calculator-WPF/assets/95579070/f22451bf-30ff-478f-9b11-2f784dd6bd4b)
