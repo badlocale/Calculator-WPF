@@ -10,23 +10,27 @@ namespace Calculator.ViewModel.Commands
     {
         public override void Execute(object? parameter)
         {
-            AppViewModel? viewModel = parameter as AppViewModel;
-            if (viewModel == null)
-            {
-                //Log
-                return;
-            }
+            AppViewModel? viewModel = (AppViewModel)parameter!;
 
             viewModel.ErrorMessage = string.Empty;
 
             if (viewModel.ActiveValue.Length == 0)
             {
-                //Log
                 return;
             }
 
             viewModel.ActiveValue =
                     viewModel.ActiveValue.Remove(viewModel.ActiveValue.Length - 1);
+        }
+
+        public override bool CanExecute(object? parameter)
+        {
+            if (parameter is AppViewModel)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
