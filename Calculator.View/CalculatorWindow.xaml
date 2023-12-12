@@ -79,7 +79,7 @@
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
                         Style="{StaticResource TextBlock2}"
-                        Text="Вводиме число" />
+                        Text="Вводимое число" />
 
                     <TextBlock
                         Grid.Row="1"

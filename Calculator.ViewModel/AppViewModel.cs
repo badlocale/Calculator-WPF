@@ -139,6 +139,7 @@ namespace Calculator.ViewModel
             ResultsQueueLenght = args.ResultsQueueLenght;
             RequestsQueueLenght = args.RequestsQueueLenght;
             LastResult = args.LastResult;
+            ActiveValue = "0";
         }
 
         private void RequestAddedHandler(object? s, RequestAddedEventArgs args)
