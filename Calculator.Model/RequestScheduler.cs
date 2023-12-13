@@ -1,7 +1,6 @@
 ﻿using Calculator.Model.EventArguments;
 using Calculator.Model.Operations;
 using System.Collections.Concurrent;
-using static Calculator.Model.IRequestScheduler;
 
 namespace Calculator.Model
 {

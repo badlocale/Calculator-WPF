@@ -1,11 +1,8 @@
 ﻿using Calculator.Model;
 using Calculator.Model.EventArguments;
-using System;
 using System.ComponentModel;
-using System.Linq;
 using System.Media;
 using System.Runtime.CompilerServices;
-using System.Windows;
 using System.Windows.Input;
 
 namespace Calculator.ViewModel

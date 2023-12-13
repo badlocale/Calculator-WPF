@@ -1,7 +1,6 @@
 ﻿using Calculator.Model;
 using Calculator.Model.Operations;
 using System;
-using System.Linq;
 
 namespace Calculator.ViewModel.Commands
 {
