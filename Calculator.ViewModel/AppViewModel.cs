@@ -59,7 +59,7 @@ namespace Calculator.ViewModel
             get => _lastResult;
             set
             {
-                _lastResult = value; 
+                _lastResult = value;
                 OnPropertyChanged();
             }
         }
@@ -74,7 +74,7 @@ namespace Calculator.ViewModel
             }
         }
 
-        public int ResultsQueueLenght 
+        public int ResultsQueueLenght
         {
             get => _resultsQueueLenght;
             set

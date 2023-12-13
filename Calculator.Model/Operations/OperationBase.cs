@@ -4,7 +4,7 @@
     {
         protected readonly int _delay;
         protected readonly decimal _rightOperand;
-        
+
         public OperationBase(int delay, decimal rightOperand)
         {
             _delay = delay;

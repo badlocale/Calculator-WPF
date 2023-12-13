@@ -14,7 +14,7 @@ namespace Calculator.View.Converters
             }
 
             Tuple<object, object> tuple = new Tuple<object, object>(values[0], values[1]);
-            
+
             return tuple;
         }
 

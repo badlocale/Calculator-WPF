@@ -1,9 +1,9 @@
-﻿using System.Windows;
-using System.Windows.Input;
-using Calculator.Model;
+﻿using Calculator.Model;
 using Calculator.Model.Operations;
 using Calculator.ViewModel;
 using Calculator.ViewModel.Commands;
+using System.Windows;
+using System.Windows.Input;
 
 namespace Calculator.View
 {
@@ -26,10 +26,10 @@ namespace Calculator.View
             ICommand enterDigitCommand = new EnterDigitCommand();
 
             AppViewModel viewModel = new(
-                requestScheduler, 
-                commaCommand, 
-                deleteDigitCommand, 
-                enterDigitCommand, 
+                requestScheduler,
+                commaCommand,
+                deleteDigitCommand,
+                enterDigitCommand,
                 operatorCommand);
 
             _startupWindow = new CalculatorWindow();

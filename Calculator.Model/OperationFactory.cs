@@ -11,11 +11,10 @@ namespace Calculator.Model
             Type? type;
             if (_registeredOperations.TryGetValue(symbol, out type))
             {
-                 return (OperationBase)Activator.CreateInstance(type, delay, rightOperand)!;
+                return (OperationBase)Activator.CreateInstance(type, delay, rightOperand)!;
             }
             else
             {
-                //Log
                 throw new KeyNotFoundException("Cant find operation type with that key.");
             }
         }
