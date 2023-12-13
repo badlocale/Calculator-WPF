@@ -10,11 +10,4 @@
             </Style>
         </Style.Resources>
     </Style>
-
-    <Style
-        x:Key="Button2"
-        BasedOn="{StaticResource Button1}"
-        TargetType="Button">
-        <Setter Property="Background" Value="{StaticResource Color2}" />
-    </Style>
 </ResourceDictionary>

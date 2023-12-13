@@ -12,12 +12,6 @@ namespace Calculator.Model
     public delegate void ArithmeticErrorRaisedHandler(
         object sender,
         ArithmeticErrorRaisedEventArgs args );
-            object sender,
-            ArithmeticErrorRaisedEventArgs args );
-            object sender,
-            ArithmeticErrorRaisedEventArgs args );
-            object sender,
-            ArithmeticErrorRaisedEventArgs args );
 
     public interface IRequestScheduler
     {

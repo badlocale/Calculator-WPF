@@ -33,6 +33,8 @@ namespace Calculator.ViewModel.Commands
                 _operationFactory.CreateOperation(operatorSymbol, delay, rightOperand);
 
             _requestScheduler.AddRequest(operation);
+
+            viewModel.ActiveValue = "0";
         }
 
         public override bool CanExecute(object? parameter)
